@@ -67,7 +67,7 @@
             <!-- Use any element to open the sidenav -->
             <img id="hamburgerBtn" src="Images/Hamburger_Menu_icon.png" align="left" onclick="openNav()" style="height: 30px; display: inline; margin: 10px 10px;" />
 
-            <h1 style="display: inline; font-size: x-large;">Департамент по операционному управлению и эксплуатации</h1>
+            <h1 style="display: inline; font-size: x-large; text-align: center">Департамент по операционному управлению и эксплуатации</h1>
             <img src="Images/BeeLine_logo.png" align="right" style="display: inline; margin: 10px 10px; height: 45px" />
             <h4>KPI, Апелляции: <a href="mailto: fembeeline.ru">fembeeline.ru</a></h4>
 
