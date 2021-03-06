@@ -117,9 +117,9 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\layout_sidebar.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\css_addition.js" />
     <Content Include="ZabbixStat.aspx" />
     <Content Include="Default.aspx" />
-    <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
