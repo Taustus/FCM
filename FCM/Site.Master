@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - FCM</title>
 
-    <%--<asp:PlaceHolder runat="server">
+    <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/") %>
-    </asp:PlaceHolder>--%>
+    </asp:PlaceHolder>
 
     <webopt:BundleReference runat="server" Path="~/Content/css" />
 </head>

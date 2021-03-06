@@ -3,9 +3,6 @@
 
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
 
-    <link href="bootstrap.min.css" rel="stylesheet" />
-    <link href="gridview-styles.css" rel="stylesheet" />
-
     <div class="sqlDataSourcesContainer">
         <asp:SqlDataSource runat="server" ID="FirstGridViewSqlDataSource" ConnectionString="<%$ ConnectionStrings:local %>"
             SelectCommand="select * from [TeamProject].[dbo].[table_example]"></asp:SqlDataSource>

@@ -36,41 +36,12 @@
         background-color: #f3f3f3;
     }
 
-
-.gridview_with_row_selection {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    min-width: 400px;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+.gridview_selected_half_opacity {
+    opacity: 0.5;
+    background: #ffc000;
 }
 
-    .gridview_with_row_selection th {
-        background-color: #ffc000;
-        color: #000000;
-        text-align: left;
-        font-weight: bold;
-    }
-
-    .gridview_with_row_selection th,
-    .gridview_with_row_selection td {
-        padding: 12px 15px;
-    }
-
-    .gridview_with_row_selection tbody tr {
-        border-bottom: 1px solid #dddddd;
-    }
-
-        .gridview_with_row_selection tbody tr:last-of-type {
-            border-bottom: 2px solid #ffc000;
-        }
-
-    .gridview_with_row_selection td, th {
-        position: relative;
-    }
-
-    .gridview_with_row_selection tbody tr:nth-of-type(even) {
-        background-color: #f3f3f3;
-    }
+.gridview_selected_full_opacity {
+    opacity: 1;
+    background: #ffc000;
+}
