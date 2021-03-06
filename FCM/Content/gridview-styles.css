@@ -35,3 +35,13 @@
     .gridview_with_row_and_column_selection tbody tr:nth-of-type(even) {
         background-color: #f3f3f3;
     }
+
+.gridview_selected_half_opacity {
+    opacity: 0.5;
+    background: #ffc000;
+}
+
+.gridview_selected_full_opacity {
+    opacity: 1;
+    background: #ffc000;
+}
