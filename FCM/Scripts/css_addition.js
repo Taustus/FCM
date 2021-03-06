@@ -1,4 +1,4 @@
-﻿function gridViewWithRowAndColumnSelection {
+﻿function gridViewWithRowAndColumnSelection() {
     var color = 'yellow', standart_color = 'white';
     var opacity = 0.2, standart_opacity = 1;
     $('.gridViewWithRowAndColumnSelection * td').on('mouseover', function () {
