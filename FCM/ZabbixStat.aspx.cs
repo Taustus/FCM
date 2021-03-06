@@ -10,14 +10,6 @@ namespace FCM
     public partial class ZabbixStat : Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-            if (!IsPostBack)
-            {
-                for(var i = 0; i < 18; i++)
-                {
-                    FirstGridView.Columns.Add(new BoundField() { DataField = $"column_{i}" }) ; 
-                }
-            }
-        }
+        { }
     }
 }

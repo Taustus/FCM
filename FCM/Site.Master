@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - FCM</title>
 
-    <asp:PlaceHolder runat="server">
+    <%--<asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/") %>
-    </asp:PlaceHolder>
+    </asp:PlaceHolder>--%>
 
     <webopt:BundleReference runat="server" Path="~/Content/css" />
     <script src="Scripts/layout_sidebar.js"></script>
@@ -65,10 +65,10 @@
         <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
         <div id="main">
             <!-- Use any element to open the sidenav -->
-            <img id="hamburgerBtn" src="Images/Hamburger_Menu_icon.png" onclick="openNav()" style="height: 30px; display: inline; margin: 10px 10px;" align="left" />
+            <img id="hamburgerBtn" src="Images/Hamburger_Menu_icon.png" align="left" onclick="openNav()" style="height: 30px; display: inline; margin: 10px 10px;" />
 
             <h1 style="display: inline; font-size: x-large;">Департамент по операционному управлению и эксплуатации</h1>
-            <img src="Images/BeeLine_logo.png" height="60" style="display: inline; margin: 10px 10px;" align="right" />
+            <img src="Images/BeeLine_logo.png" align="right" style="display: inline; margin: 10px 10px; height: 45px" />
             <h4>KPI, Апелляции: <a href="mailto: fembeeline.ru">fembeeline.ru</a></h4>
 
         </div>
