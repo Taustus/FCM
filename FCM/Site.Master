@@ -13,7 +13,6 @@
     </asp:PlaceHolder>--%>
 
     <webopt:BundleReference runat="server" Path="~/Content/css" />
-    <script src="Scripts/layout_sidebar.js"></script>
 </head>
 <body>
     <form runat="server">
@@ -36,6 +35,9 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
+
+        <script src="Scripts/layout_sidebar.js"></script>
+        <script src="Scripts/css_addition.js"></script>
 
         <div id="mySidenav">
 

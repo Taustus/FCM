@@ -115,6 +115,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\gridview-styles.css" />
     <Content Include="Content\layout_sidebar.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\css_addition.js" />
