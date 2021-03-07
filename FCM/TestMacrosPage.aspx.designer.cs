@@ -42,6 +42,42 @@ namespace FCM
         protected global::AjaxControlToolkit.TabPanel TabPanel1;
 
         /// <summary>
+        /// SqlDataSourceWeek control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceWeek;
+
+        /// <summary>
+        /// SqlDataSourceMonth control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceMonth;
+
+        /// <summary>
+        /// SqlDataSourceYear control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceYear;
+
+        /// <summary>
+        /// SqlDataSourceMain control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceMain;
+
+        /// <summary>
         /// DropDownListWeek control.
         /// </summary>
         /// <remarks>
@@ -51,12 +87,30 @@ namespace FCM
         protected global::System.Web.UI.WebControls.DropDownList DropDownListWeek;
 
         /// <summary>
-        /// GridView1 control.
+        /// DropDownListMonth control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownListMonth;
+
+        /// <summary>
+        /// DropDownListYear control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropDownListYear;
+
+        /// <summary>
+        /// GridViewMain control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridViewMain;
     }
 }
