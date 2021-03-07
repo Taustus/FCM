@@ -1,16 +1,14 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TestMacrosPage.aspx.cs" Inherits="FCM.TestMacrosPage" %>
 
 <asp:Content ID="Content" ContentPlaceHolderID="MainContent" runat="server">
-
     <asp:UpdatePanel ID="MainUpdatePanel" runat="server">
         <ContentTemplate>
 
-            <cc1:TabContainer ID="MainTabContainer" runat="server" ActiveTabIndex="0" AutoPostBack="True">
+            <cc1:TabContainer ID="MainTabContainer" runat="server" ActiveTabIndex="0" AutoPostBack="True" CssClass="dropdown-container">
 
                 <%--TabPanel with content--%>
                 <cc1:TabPanel ID="TabPanel1" runat="server" HeaderText="Your_header_text">
                     <ContentTemplate>
-
                         <%--SqlDataSources--%>
                         <div>
                             <asp:SqlDataSource ID="SqlDataSourceWeek" runat="server" ConnectionString="<%$ ConnectionStrings:local %>"
@@ -69,28 +67,16 @@
                                 </SelectParameters>
                             </asp:SqlDataSource>
                         </div>
-
                         <%--Title over GridView and filters table--%>
                         <p class="gridview_title">Your_title</p>
 
                         <%--Filters for GridView--%>
                         <table class="filters_table">
-                            <%--Titles row--%>
-                            <tr>
-                                <td>
-                                    <p>Выбрать неделю:</p>
-                                </td>
-                                <td>
-                                    <p>Выбрать месяц:</p>
-                                </td>
-                                <td>
-                                    <p>Выбрать год:</p>
-                                </td>
-                            </tr>
                             <%--DropDownLists row--%>
                             <tr>
                                 <td>
-                                    <asp:DropDownList runat="server" ID="DropDownListWeek" DataSourceID="SqlDataSourceWeek"
+                                    <p style="font-weight: bold;">Неделя:</p>
+                                    <asp:DropDownList runat="server" ID="DropDownListWeek" DataSourceID="SqlDataSourceWeek" CssClass="dropdown-style"
                                         DataTextField="week"
                                         DataValueField="week"
                                         AutoPostBack="true"
@@ -100,7 +86,8 @@
                                     </asp:DropDownList>
                                 </td>
                                 <td>
-                                    <asp:DropDownList runat="server" ID="DropDownListMonth" DataSourceID="SqlDataSourceMonth"
+                                    <p style="font-weight: bold;">Месяц:</p>
+                                    <asp:DropDownList runat="server" ID="DropDownListMonth" DataSourceID="SqlDataSourceMonth" CssClass="dropdown-style"
                                         DataTextField="month"
                                         DataValueField="month"
                                         AutoPostBack="true"
@@ -110,6 +97,7 @@
                                     </asp:DropDownList>
                                 </td>
                                 <td>
+                                    <p style="font-weight: bold;">Год:</p>
                                     <asp:DropDownList runat="server" ID="DropDownListYear" DataSourceID="SqlDataSourceYear"
                                         DataTextField="year"
                                         DataValueField="year"
