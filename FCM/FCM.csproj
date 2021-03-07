@@ -47,6 +47,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=20.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.20.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
@@ -120,6 +123,7 @@
     <Content Include="Content\loading-screen.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\css_addition.js" />
+    <Content Include="TestMacrosPage.aspx" />
     <Content Include="ZabbixStat.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -189,6 +193,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestMacrosPage.aspx.cs">
+      <DependentUpon>TestMacrosPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestMacrosPage.aspx.designer.cs">
+      <DependentUpon>TestMacrosPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="ZabbixStat.aspx.cs">
       <DependentUpon>ZabbixStat.aspx</DependentUpon>
