@@ -114,3 +114,43 @@
     opacity: 1;
     background: #ffc000;
 }
+
+.gridview_space_between_cells {
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-spacing: 10px 0px;
+    border-radius: 5px 5px 0 0;
+    border-collapse: collapse;
+    border: hidden;
+}
+
+    .gridview_space_between_cells td {
+        border-bottom: hidden;
+        border-radius: 4px 4px 4px 4px;
+    }
+
+    .gridview_space_between_cells th {
+        background-color: #ffc000;
+        color: #000000;
+        border-radius: 4px 4px 0px 0px;
+        margin-bottom: 4px;
+    }
+
+    .gridview_space_between_cells th, td {
+        padding: 12px;
+        border-right: 8px solid White;
+        border-top: hidden;
+    }
+
+    .gridview_space_between_cells tr td:last-of-type {
+        border-right: none;
+    }
+
+    .gridview_space_between_cells tbody tr:nth-of-type(odd) {
+        background-color: #f3f3f3;
+    }
+
+  
